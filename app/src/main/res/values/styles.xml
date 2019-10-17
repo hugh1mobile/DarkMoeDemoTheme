@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <style name="AppTheme.Light" parent="AppTheme">
+        <item name="fragmentBackground">#ffffff</item>
+        <item name="buttonBackground">#0032FF</item>
+        <item name="textColor">#E5E9F7</item>
+    </style>
+
+    <style name="AppTheme.Dark" parent="AppTheme">
+        <item name="fragmentBackground">#333131</item>
+        <item name="buttonBackground">#818080</item>
+        <item name="textColor">#0032FF</item>
+    </style>
+</resources>
